@@ -8,11 +8,9 @@ if len(sys.argv) < 3:
     print("Usage:\033[35m python "+sys.argv[0]+"\033[0m <\033[35mlength\033[0m> <\033[35m1\033[0m =\033[35m Unsecure \033[0m/\033[35m 0\033[0m =\033[35m Secure\033[0m>\n\033[7;49;35m-Znods\033[0m")
     sys.exit()
 
-global a
 global passwordd
 global stats
 global addedchars
-a = 0
 addedchars = 0
 passwordLen = int(sys.argv[1])
 
