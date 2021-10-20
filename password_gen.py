@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import string, random, time, sys, re
 from sys import stdout
 from password_strength import PasswordPolicy
