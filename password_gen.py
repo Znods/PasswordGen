@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import string, random, time, sys, re
 from sys import stdout
-from password_strength import PasswordPolicy
+#from password_strength import PasswordPolicy
 from password_strength import PasswordStats
 
 if len(sys.argv) < 3:
